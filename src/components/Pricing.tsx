@@ -1,5 +1,5 @@
 import React from 'react';
-import { PricingPlan } from '../types';
+import { PricingPlan } from '../Types';
 
 const Pricing: React.FC = () => {
   const plans: PricingPlan[] = [
