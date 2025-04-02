@@ -1,5 +1,5 @@
 import React from 'react';
-import { ServiceType } from '../types';
+import { ServiceType } from '../Types';
 
 const Services: React.FC = () => {
   const services: ServiceType[] = [
