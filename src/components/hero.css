@@ -1,8 +1,8 @@
 .hero {
-    background-color: var(--primary-color);
-    color: var(--white);
-    padding: 4rem 0;
-  }
+  background-color: var(--hero-background);
+  color: var(--white);
+  padding: 4rem 0;
+}
   
   .hero-container {
     display: flex;
