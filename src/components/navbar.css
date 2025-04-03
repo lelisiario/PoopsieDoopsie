@@ -1,0 +1,45 @@
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    color: var(--white);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .logo-tag {
+    font-size: 0.8rem;
+    background-color: var(--secondary-color);
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
