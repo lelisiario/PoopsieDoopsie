@@ -6,7 +6,7 @@ import Services from './Components/Services';
 import About from './Components/About';
 import ContactForm from './Components/ContactForm';
 import Footer from './Components/Footer';
-import Testimonials from './Components/Testimonials';
+// import Testimonials from './Components/Testimonials';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Services />
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContactForm />
       <Footer />
     </div>
