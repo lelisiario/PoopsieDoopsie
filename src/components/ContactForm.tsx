@@ -161,7 +161,7 @@ const ContactForm: React.FC = () => {
             )}
           </div>
         </div>
-        
+{/*         
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <div className="bg-green-500 h-12 w-12 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -191,7 +191,7 @@ const ContactForm: React.FC = () => {
             <h3 className="text-xl font-semibold mb-2">Service Area</h3>
             <p>Vacaville, CA and surrounding areas</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
