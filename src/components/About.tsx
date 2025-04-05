@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './About.css';
 const About: React.FC = () => {
   return (
     <section id="about" className="py-16 bg-white">
@@ -22,31 +22,31 @@ const About: React.FC = () => {
               Our mission is to provide a reliable, thorough, and environmentally responsible waste removal service that gives pet owners more time to enjoy their yards and their pets.
             </p>
             <p className="text-gray-700 mb-4">
-              We're locally owned and operated, fully insured, and committed to exceptional service. Our team members are pet lovers themselves, background-checked, and trained to treat your property with the utmost care and respect.
+              We're locally owned and operated, and committed to exceptional service. Our team members are pet lovers themselves, background-checked, and trained to treat your property with the utmost care and respect.
             </p>
             <div className="mt-8">
               <h3 className="text-xl font-semibold text-green-700 mb-4">Why Choose Us?</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex items-center">
-                  <svg className="h-5 w-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span>Reliable & Consistent</span>
                 </div>
                 <div className="flex items-center">
-                  <svg className="h-5 w-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span>Fully Insured</span>
                 </div>
                 <div className="flex items-center">
-                  <svg className="h-5 w-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span>Eco-Friendly Disposal</span>
                 </div>
                 <div className="flex items-center">
-                  <svg className="h-5 w-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg className="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
                   <span>Satisfaction Guarantee</span>
