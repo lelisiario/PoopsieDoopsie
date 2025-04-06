@@ -20,11 +20,11 @@
     background-blend-mode: overlay;
   }
   
-  .contact-section {
+  .contact-section-two {
     background-color: #047857;
     color: white;
     padding: 4rem 1rem;
-    background-image: url('../assets'); /* transparent paw print pattern */
+    background-image: url('../assets/SecondPawPrint.svg'); /* transparent paw print pattern */
     background-repeat: no-repeat;
     background-size: 500px;
     background-blend-mode: overlay;
