@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
-import logo from '../assets/Logo.jpg';
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -40,10 +39,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <section id="contact" className="contact-section">
-      <img src={logo} alt="Company logo" className="contact-logo" />
-      <h2>Contact Us</h2>
-      <p>Ready to reclaim your yard? Get in touch today!</p>
-
+      <h2>We’re all ears 🐶 — Drop us a message!</h2>
       <div className="contact-form-wrapper">
         {isSubmitted ? (
           <div className="thank-you-message">
