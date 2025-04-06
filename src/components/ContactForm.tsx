@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
+import logo from '../assets/Logo.jpg';
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -16,7 +17,7 @@ const ContactForm: React.FC = () => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -39,17 +40,18 @@ const ContactForm: React.FC = () => {
 
   return (
     <section id="contact" className="contact-section">
+      <img src={logo} alt="Company logo" className="contact-logo" />
       <h2>Contact Us</h2>
       <p>Ready to reclaim your yard? Get in touch today!</p>
 
-      <div className="contact-form-container">
+      <div className="contact-form-wrapper">
         {isSubmitted ? (
           <div className="thank-you-message">
             <h3>Thank You!</h3>
             <p>Your message has been sent successfully. We'll get back to you as soon as possible!</p>
           </div>
         ) : (
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="contact-form-container">
             <label htmlFor="name">Full Name</label>
             <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
 
