@@ -90,9 +90,9 @@ const ContactForm: React.FC = () => {
               placeholder="Tell us about your specific needs or any questions you have..."
             />
 
-            <button type="submit" className="submit-button">
-              Send Message
-            </button>
+<button type="submit" className="submit-button">
+  🐾 Send Message
+</button>
           </form>
         )}
       </div>
