@@ -14,21 +14,13 @@
     background-color: #047857;
     color: white;
     padding: 4rem 1rem;
-    background-image: url('../assets/PawPrints.svg'); /* transparent paw print pattern */
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-blend-mode: overlay;
+    background-image: 
+      url('../assets/PawPrints.svg'),
+      url('../assets/SecondPawPrint.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: 300px, 300px;
   }
-  
-  .contact-section-two {
-    background-color: #047857;
-    color: white;
-    padding: 4rem 1rem;
-    background-image: url('../assets/SecondPawPrint.svg'); /* transparent paw print pattern */
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-blend-mode: overlay;
-  } 
   
   .contact-form-container {
     max-width: 700px;
