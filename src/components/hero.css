@@ -33,10 +33,18 @@
   }
   
   .hero-image {
-    width: 50%;
+    width: 140%;
+    max-width: 300px; /* Adjust as needed */
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  .hero-image img {
+    width: 140%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px; /* optional for rounded image */
   }
   
   .image-placeholder {
