@@ -16,7 +16,7 @@ const Footer: React.FC<FooterProps> = ({
         <div className="footer-section">
           <h3>Contact Us</h3>
           <p><FaPhone className="icon" /> (707) 761-2600</p>
-          <p><FaEnvelope className="icon" /> info@poopsiedoopsie.com</p>
+          {/* <p><FaEnvelope className="icon" /> info@poopsiedoopsie.com</p> */}
           <p>2010 Harbison Dr. Ste. A 633</p>
           <p>Vacaville, CA 95688</p>
         </div>
@@ -34,9 +34,9 @@ const Footer: React.FC<FooterProps> = ({
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="https://facebook.com" aria-label="Facebook"><FaFacebook /></a>
+            {/* <a href="https://facebook.com" aria-label="Facebook"><FaFacebook /></a>
             <a href="https://instagram.com" aria-label="Instagram"><FaInstagram /></a>
-            <a href="https://twitter.com" aria-label="Twitter"><FaTwitter /></a>
+            <a href="https://twitter.com" aria-label="Twitter"><FaTwitter /></a> */}
           </div>
           <p className="service-area">Proudly serving Vacaville and surrounding areas</p>
         </div>
