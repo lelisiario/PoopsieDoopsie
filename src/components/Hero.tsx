@@ -1,5 +1,6 @@
 
 import './Hero.css';
+import Logo from '../assets/Logo.jpg'; // Assuming you have a logo image in the assets folder
 
 const Hero = () => {
   return (
@@ -14,8 +15,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image">
-          {/* Image placeholder - replace with actual image later */}
-          <div className="image-placeholder"></div>
+          <img src={Logo} alt="Poopsie Doopsie Logo" />
         </div>
       </div>
     </section>
