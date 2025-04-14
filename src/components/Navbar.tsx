@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="nav-links">
           <a href="#services">Services</a>
           <a href="#pricing">Pricing</a>
-          <a href="#about">About Us</a>
+          <Link to="/about">About Us</Link>
           <Link to="/contact">Contact</Link>
         </div>
         <div className="cta-button">
