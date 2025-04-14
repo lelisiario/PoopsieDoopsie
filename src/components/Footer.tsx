@@ -15,9 +15,9 @@ const Footer: React.FC<FooterProps> = ({
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p><FaPhone className="icon" /> (555) 123-4567</p>
+          <p><FaPhone className="icon" /> (707) 761-2600</p>
           <p><FaEnvelope className="icon" /> info@poopsiedoopsie.com</p>
-          <p>123 Clean Street</p>
+          <p>2010 Harbison Dr. Ste. A 633</p>
           <p>Vacaville, CA 95688</p>
         </div>
         
