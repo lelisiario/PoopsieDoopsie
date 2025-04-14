@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Services from './Components/Services';
+import Pricing from './Components/Pricing';
 import About from './Components/About';
 import ContactForm from './Components/ContactForm';
 import Footer from './Components/Footer';
@@ -14,6 +15,8 @@ function HomePage() {
       <Hero />
       <Services />
       <About />
+      <Pricing />
+      {/* Uncomment the following line to include testimonials */}
       {/* <Testimonials /> */}
     </>
   );
@@ -27,7 +30,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactForm />} />
-          {/* You can add more routes later for other pages */}
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>
