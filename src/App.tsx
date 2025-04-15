@@ -7,7 +7,7 @@ import Pricing from './components/Pricing';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-// import Testimonials from './Components/Testimonials';
+// import Testimonials from './components/Testimonials';
 
 function HomePage() {
   return (
