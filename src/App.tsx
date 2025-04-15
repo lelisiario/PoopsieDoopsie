@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
-import Hero from './components/hero';
-import Services from './components/services';
-import Pricing from './components/pricing';
-import About from './components/about';
-import ContactForm from './components/contactForm';
-import Footer from './components/footer';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Pricing from './components/Pricing';
+import About from './components/About';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 // import Testimonials from './Components/Testimonials';
 
 function HomePage() {
