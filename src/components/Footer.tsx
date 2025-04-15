@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaTwitter, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
+// Only import the icons you're actually using
+// Remove FaFacebook, FaInstagram, FaTwitter, FaEnvelope from imports if not using them
 
 interface FooterProps {
   companyName?: string;
@@ -34,9 +36,8 @@ const Footer: React.FC<FooterProps> = ({
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            {/* <a href="https://facebook.com" aria-label="Facebook"><FaFacebook /></a>
-            <a href="https://instagram.com" aria-label="Instagram"><FaInstagram /></a>
-            <a href="https://twitter.com" aria-label="Twitter"><FaTwitter /></a> */}
+            {/* Social icons will be added here later */}
+            <p className="coming-soon">Social links coming soon!</p>
           </div>
           <p className="service-area">Proudly serving Vacaville and surrounding areas</p>
         </div>
@@ -52,6 +53,7 @@ const Footer: React.FC<FooterProps> = ({
       </div>
       
       <style>{`
+        /* Your existing styles */
         .footer-container {
           background-color: #00a67d;
           color: white;
@@ -59,6 +61,14 @@ const Footer: React.FC<FooterProps> = ({
           font-family: sans-serif;
         }
         
+        /* Add this new style */
+        .coming-soon {
+          font-size: 0.9rem;
+          font-style: italic;
+          opacity: 0.8;
+        }
+        
+        /* Rest of your existing styles */
         .footer-content {
           display: flex;
           flex-wrap: wrap;
