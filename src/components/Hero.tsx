@@ -1,5 +1,5 @@
 
-import './hero.css';
+import './Hero.css';
 import Logo from '../assets/Logo.jpg'; // Assuming you have a logo image in the assets folder
 
 const Hero = () => {
