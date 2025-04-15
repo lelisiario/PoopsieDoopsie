@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 const About: React.FC = () => {
   return (
     <section id="about" className="py-16 bg-white">

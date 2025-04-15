@@ -1,11 +1,11 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
-import Services from './Components/Services';
-import Pricing from './Components/Pricing';
-import About from './Components/About';
-import ContactForm from './Components/ContactForm';
+import Navbar from './Components/navbar';
+import Hero from './Components/hero';
+import Services from './Components/services';
+import Pricing from './Components/pricing';
+import About from './Components/about';
+import ContactForm from './Components/contactForm';
 import Footer from './Components/Footer';
 // import Testimonials from './Components/Testimonials';
 
