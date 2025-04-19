@@ -1,4 +1,8 @@
 import "./Pricing.css";
+import OneDog from '../assets/Onedog.jpg';         // Capital 'O'
+import TwoDogs from '../assets/Twodogs.jpg';         // Capital 'T'
+import MultiDog from '../assets/MultiDog.jpg';       // Capital 'D'
+import MultiDogTwo from '../assets/MultiDogTwo.jpg'; // Capital 'D' and 'T'
 
 const Pricing = () => {
   return (
@@ -11,7 +15,7 @@ const Pricing = () => {
           {/* Single Pup Plan */}
           <div className="pricing-card">
             <div className="card-image">
-              <img src="/src/assets/1dog.jpg" alt="Single Pup" />
+              <img src={OneDog} alt="Single Pup" />
             </div>
             <div className="card-content">
               <h3 className="plan-title">Single Pup Plan</h3>
@@ -24,7 +28,7 @@ const Pricing = () => {
           <div className="pricing-card popular">
             <div className="popular-tag">Most Popular</div>
             <div className="card-image">
-              <img src="/src/assets/2dogs.jpg" alt="Double Trouble" />
+              <img src={TwoDogs} alt="Double Trouble" />
             </div>
             <div className="card-content">
               <h3 className="plan-title">Double Trouble Plan</h3>
@@ -36,7 +40,7 @@ const Pricing = () => {
           {/* Pack Leader Plan */}
           <div className="pricing-card">
             <div className="card-image">
-              <img src="/src/assets/Multi-dog.jpg" alt="Pack Leader" />
+              <img src={MultiDog} alt="Pack Leader" />
             </div>
             <div className="card-content">
               <h3 className="plan-title">Pack Leader Plan</h3>
@@ -48,7 +52,7 @@ const Pricing = () => {
           {/* HOA & Gov Plan */}
           <div className="pricing-card">
             <div className="card-image">
-              <img src="/src/assets/Multi-dog2.jpg" alt="HOA / Government" />
+              <img src={MultiDogTwo} alt="HOA / Government" />
             </div>
             <div className="card-content">
               <h3 className="plan-title">Apartments & Gov Contracts</h3>
