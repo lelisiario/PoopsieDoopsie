@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="container navbar-container">
         <div className="logo">
           <Link to="/">
+          console.log("Poopsie Doopsie Logo")
             <span className="logo-text">Poopsie Doopsie</span>
             <span className="logo-tag">Pet Waste Removal</span>
           </Link>
