@@ -1,4 +1,5 @@
 import "./Services.css";
+import oneDogImage from '../assets/1dog.jpg';
 
 const Services = () => {
   return (
@@ -16,8 +17,8 @@ const Services = () => {
             <p>When you hire Poopsie Doopsie, you're not just getting a clean yard — you're getting peace of mind and the satisfaction of supporting a small business with a big heart. Let us take care of the mess so you can focus on the cuddles. 🐶💚</p>
           </div>
           <div className="mission-image">
-            <img src="/src/assets/1dog.jpg" alt="Happy dog in clean yard" />
-          </div>
+    <img src={oneDogImage} alt="Happy dog in clean yard" />
+  </div>
         </div>
 
         <div className="services-cards">
