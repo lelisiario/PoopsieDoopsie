@@ -11,7 +11,7 @@ const Services = () => {
           <div className="mission-content">
             <h3 className="mission-title">Our Mission</h3>
             <p>At Poopsie Doopsie, our mission is simple: to make life easier (and cleaner) for pet parents while giving back to the furry friends who need it most.</p>
-            <p>We launched our business after realizing that while <strong>everybody loves their pets, nobody likes cleaning up after them</strong> — and that's where we come in. With no other local pooper scooper services active in the area, we knew we had the chance to fill a need, support our community, and lend a hand (or paw) to nearby shelters.</p>
+            <p>We launched our business after realizing that while <strong>everybody loves their pets, but cleaning up after them? Not so much.</strong> — and that's where we come in. With no other local pooper scooper services active in the area, we knew we had the chance to fill a need, support our community, and lend a hand (or paw) to nearby shelters.</p>
             <p>As a family-owned business, we believe in doing the dirty work so our neighbors don't have to. We use pet-safe products, never lock clients into contracts, and pride ourselves on being extra-thorough, always clean, and always reliable.</p>
             <p>When you hire Poopsie Doopsie, you're not just getting a clean yard — you're getting peace of mind and the satisfaction of supporting a small business with a big heart. Let us take care of the mess so you can focus on the cuddles. 🐶💚</p>
           </div>
