@@ -1,5 +1,5 @@
 import "./Services.css";       // Capital 'D'
-import MultiDogTwo from '../assets/MultiDogTwo.jpg'; // Capital 'D' and 'T'
+import DogYard from '../assets/DogYard.jpg' // Capital 'D' and 'T'
 const Services = () => {
   return (
     <section id="services" className="services-section">
@@ -16,7 +16,7 @@ const Services = () => {
             <p>When you hire Poopsie Doopsie, you're not just getting a clean yard — you're getting peace of mind and the satisfaction of supporting a small business with a big heart. Let us take care of the mess so you can focus on the cuddles. 🐶💚</p>
           </div>
           <div className="mission-image">
-          <img src={MultiDogTwo} alt="Happy dogs" />
+          <img src={DogYard} alt="Dogs in a yard" />
   </div>
         </div>
 
