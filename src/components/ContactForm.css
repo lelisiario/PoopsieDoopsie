@@ -83,3 +83,10 @@
 .thank-you-message p {
   color: #4b5563;
 }
+
+/* Media Query to hide paw prints on smaller screens */
+@media (max-width: 768px) {
+  .contact-section {
+    background-image: none; /* This will remove the paw prints */
+  }
+}

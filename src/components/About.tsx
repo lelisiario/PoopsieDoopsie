@@ -9,7 +9,7 @@ const About: React.FC = () => {
             {/* Placeholder for company image/team */}
             <div className="bg-green-100 rounded-lg p-8 text-center">
               <p className="text-green-800 text-lg">
-                [Image of Poopsie Doopsie team or founder]
+                {/* [Image of Poopsie Doopsie team or founder] */}
               </p>
             </div>
           </div>
