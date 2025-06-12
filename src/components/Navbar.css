@@ -1,45 +1,151 @@
+:root {
+  /* Define your colors here if they aren't global in index.css */
+  --primary-color: #00855a; /* Example based on screenshot */
+  --secondary-color: #F8B400; /* Example based on screenshot */
+  --white: #ffffff;
+}
+
 .navbar {
-    background-color: var(--primary-color);
-    padding: 1rem 0;
-    color: var(--white);
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: var(--white);
-  }
-  
-  .logo-text {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  
-  .logo-tag {
-    font-size: 0.8rem;
-    background-color: var(--secondary-color);
-    padding: 0.1rem 0.5rem;
-    border-radius: 4px;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .nav-links a {
-    color: var(--white);
-    text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+  color: var(--white);
+  /* Ensure it takes full width and doesn't create horizontal scroll */
+  width: 100%;
+  box-sizing: border-box; /* Include padding in element's total width */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Add flex-wrap to allow items to wrap to the next line if space is limited */
+  flex-wrap: wrap; 
+  /* Add some horizontal padding to prevent content from touching screen edges */
+  padding: 0 1rem; 
+  /* Ensures the container doesn't exceed a reasonable max-width on larger screens */
+  max-width: 1200px; /* Adjust as needed for your desired desktop width */
+  margin: 0 auto; /* Centers the container on larger screens */
+  box-sizing: border-box; /* Important for padding */
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--white);
+  /* Ensure logo takes up minimal space but allows wrap */
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo-tag {
+  font-size: 0.8rem;
+  background-color: var(--secondary-color);
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  /* Allow nav links to shrink and wrap */
+  flex-wrap: wrap; 
+  /* Allow it to grow if there's space, but shrink if not */
+  flex-grow: 1; 
+  /* Align items to the end if they wrap */
+  justify-content: flex-end; 
+  margin-left: auto; /* Pushes nav-links to the right, might not be needed with space-between */
+}
+
+.nav-links a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 500;
+  /* Prevent links from being too narrow if they wrap */
+  white-space: nowrap; 
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.cta-button {
+  /* Ensure button doesn't wrap oddly if it's the last item */
+  flex-shrink: 0; 
+  margin-left: 1rem; /* Add some space from nav links if they wrap */
+}
+
+/* Basic styling for the button, assuming btn & btn-primary are defined elsewhere */
+.btn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
     font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color); /* Your orange color */
+    color: var(--white);
+    border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1); /* Slightly brighten on hover */
+    border-color: var(--secondary-color);
+}
+
+
+/* Media Query for Smaller Screens (e.g., typical mobile portrait) */
+/* This is a starting point, you'll likely want a more comprehensive hamburger menu */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column; /* Stack logo, nav-links, cta vertically */
+    align-items: flex-start; /* Align items to the start */
+    padding: 1rem; /* More consistent padding for small screens */
   }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
+
+  .logo {
+    margin-bottom: 1rem; /* Space below the logo */
   }
+
+  .nav-links {
+    flex-direction: column; /* Stack individual nav links vertically */
+    gap: 0.5rem; /* Smaller gap for stacked links */
+    width: 100%; /* Make links take full width */
+    margin-left: 0; /* Remove auto margin for stacking */
+    margin-bottom: 1rem; /* Space before the CTA button */
+    align-items: flex-start; /* Align links to the left */
+  }
+
+  .nav-links a {
+    padding: 0.5rem 0; /* Add vertical padding to links */
+  }
+
+  .cta-button {
+    width: 100%; /* Make button take full width */
+    margin-left: 0;
+  }
+
+  .cta-button .btn {
+      width: 100%; /* Ensure the button itself spans full width */
+      text-align: center;
+  }
+}
+
+/* You might want a slightly larger breakpoint for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar-container {
+    padding: 0 1.5rem; /* Adjust padding for tablets */
+  }
+  .nav-links {
+    gap: 1.5rem; /* Slightly smaller gap for tablets if needed */
+  }
+}
