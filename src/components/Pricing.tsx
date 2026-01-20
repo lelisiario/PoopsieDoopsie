@@ -19,7 +19,7 @@ const Pricing = () => {
             </div>
             <div className="card-content">
               <h3 className="plan-title">Single Pup Plan</h3>
-              <div className="price">$100</div>
+              <div className="price">Starting at $100</div>
               <p className="plan-description">For the solo sniffer. One visit per week to keep your yard clean and stink-free.</p>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Pricing = () => {
             </div>
             <div className="card-content">
               <h3 className="plan-title">Double Trouble Plan</h3>
-              <div className="price">$149</div>
+              <div className="price">Starting at $149</div>
               <p className="plan-description">Two tails, no problem! Weekly scoops for your dynamic dog duo.</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Pricing = () => {
             </div>
             <div className="card-content">
               <h3 className="plan-title">Pack Leader Plan</h3>
-              <div className="price">$199</div>
+              <div className="price">Starting at $199</div>
               <p className="plan-description">For homes with 3+ furry friends. Tailored service for a cleaner yard.</p>
             </div>
           </div>
